@@ -4,6 +4,10 @@ import haxe.macro.Expr.TypeDefinition;
 
 class GodotAPIGenerator {
     static function main() {
+        if (haxe.macro.Compiler.getDefine('no_generate') != null) {
+            return;
+        }
+
         trace("Generating Godot API bindings...");
 
         final haxeTypes: Array<TypeDefinition> = godot.Bindings.generate("extension_api.json");
