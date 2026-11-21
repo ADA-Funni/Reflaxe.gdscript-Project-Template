@@ -1,0 +1,12 @@
+{
+	"filesGenerated": [
+		"plugin.gd",
+		"plugin.cfg",
+		"Test.gd",
+		"Log.gd",
+		"Exception.gd"
+	],
+	"id": 2,
+	"wasCached": false,
+	"version": 1
+}
