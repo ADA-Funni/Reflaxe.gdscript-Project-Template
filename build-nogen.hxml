@@ -1,0 +1,14 @@
+# ----- Text that says "building game!" -----
+-cp src
+-main tools.buildingtext.BuildingGameText
+--interp
+--next
+
+# ----- Transpiler for Haxe -> GDScript -----
+-cp src
+-lib gdscript
+-D gdscript-output=godot/assets/scripts
+-D generate_godot_plugin
+
+# Classes to compile into the build
+soul
