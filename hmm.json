@@ -8,7 +8,7 @@
     {
       "name": "godot-api-generator",
       "type": "git",
-      "ref": "main",
+      "ref": "8dd23d99e278f5648d0c7a2e8bf712f8aeee2f5f",
       "url": "https://github.com/SomeRanDev/Haxe-GodotBindingsGenerator"
     },
     {
